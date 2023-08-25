@@ -1,0 +1,608 @@
+/* ------------------------------
+  all common css starts here 
+  -------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+/* all common css ends here */
+
+/* -------------------------
+    nav_bar css done here
+----------------------------- */
+#nav_bar {
+  position: fixed;
+  background-color: #211d2644;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu_bar {
+  display: flex;
+}
+.logo {
+  width: 270px;
+  padding-top: 30px;
+}
+.menu {
+  width: 900px;
+  text-align: right;
+}
+.menu ul li a:hover {
+  color: #228aa3;
+}
+.menu ul li a {
+  color: #f5f5f5;
+  padding-left: 42px;
+  line-height: 90px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* nav_bar css ends here */
+
+/*--------------------------
+  banner_part css done here
+ ---------------------------- */
+#banner_part {
+  background-image: url(../images/banner_one.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 330px;
+  padding-bottom: 250px;
+}
+.banner_text {
+  text-align: center;
+}
+.banner_text h1 {
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400px;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.banner_text h3 {
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  letter-spacing: 4.5px;
+}
+.banner_text p {
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* banner_part css ends here */
+
+/*---------------------------------
+    service part css starts here 
+ ---------------------------------*/
+
+.service_text {
+  text-align: center;
+}
+.service_text h2 {
+  padding-top: 85px;
+  padding-bottom: 30px;
+  color: #444444;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+.service_text p {
+  padding-bottom: 80px;
+  color: #444444;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.services_title {
+  color: #444444;
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.services_main_part {
+  display: flex;
+}
+.services_card {
+  height: 354px;
+  width: 368px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  margin-right: 30px;
+  padding: 15px 15px 0 15px;
+}
+.services_card h4 {
+  color: #444444;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 17px;
+
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+.services_card p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.card_img img {
+  width: 100%;
+}
+.mr {
+  margin-right: 0px !important;
+}
+/* service part css starts here */
+
+/* ---------------------------
+ instagram css done here 
+ -----------------------------*/
+#instagram_title {
+  background-color: #2c2c2c;
+  color: aliceblue;
+  text-align: center;
+  height: 590px;
+  margin-top: 85px;
+  padding-bottom: 40px;
+}
+#instagram_title h3 {
+  color: #d5d5d5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  border-block-start: 40px;
+}
+#instagram_title h3::before {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #535353;
+  content: "";
+  left: -110px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#instagram_title h3::after {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #535353;
+  content: "";
+  right: -110px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.button {
+  margin-top: 50px;
+  text-align: center;
+}
+.button a {
+  border: 1px solid #797979;
+  border-radius: 2px;
+  padding: 15px 20px;
+  color: #a6a6a6;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.instagram {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+.instagram_img {
+  width: 25%;
+}
+
+.instagram_img img {
+  width: 100%;
+}
+/* instagram part end here */
+
+/*-----------------------------------
+ the journal css section start here 
+ ------------------------------------*/
+#the_journal {
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.journal_main {
+  display: flex;
+}
+.the_journal_title {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.the_journal_title h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  color: #444444;
+}
+.the_journal_title h2::before {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #d9d9d9;
+  content: "";
+  left: -110px;
+  top: 20%;
+  transform: translateY(-50%);
+}
+.the_journal_title h2::after {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #d9d9d9;
+  content: "";
+  right: -110px;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+.journal_card {
+  height: 460px;
+  width: 368px;
+  border: 2px solid #e3e3e3;
+  margin-right: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 28px 0;
+  margin-bottom: 8px;
+}
+.journal_card p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #666666;
+  text-align: center;
+  justify-content: start;
+}
+.journal_card h3 {
+  font-size: 16px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+.journal_card h4 {
+  color: #999999;
+  text-decoration: underline 2px #28b8d8;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+.journal_card img {
+  padding-bottom: 15px;
+}
+.journal_card {
+  padding-bottom: 20px;
+}
+
+.continue {
+  display: flex;
+  /* justify-content: space-around; */
+  padding-top: 25px;
+  margin: 0 5px;
+  color: #999999;
+  font-size: 11px;
+}
+.continue_underline {
+  padding-left: 20px;
+}
+.heart {
+  padding-left: 180px;
+}
+/* the journal section ends here */
+
+/* -----------------------------
+about me section css start here 
+-------------------------------*/
+#about_me {
+  height: 450px;
+}
+.about_me_main_card {
+  display: flex;
+}
+.about_me_left {
+  height: 340px;
+  width: 570px;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+.about_me_left img {
+  padding-left: 0;
+}
+.about_me_left h3 {
+  padding: 15px 10px 10px 0px;
+  color: #444444;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+}
+.about_me_left h3::after {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #d9d9d9;
+  content: "";
+  right: -110px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left {
+  padding: 20px;
+  padding-left: 0;
+}
+.left_text {
+  margin: 15px;
+}
+.left_text h4 {
+  padding-bottom: 20px;
+  line-height: 20px;
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+}
+.left_text p {
+  line-height: 20px;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.about_me_flex {
+  display: flex;
+}
+.about_me_right {
+  height: 340px;
+  width: 570px;
+  border-radius: 10px;
+}
+.about_me_right h3 {
+  padding: 15px 10px 30px 0px;
+  color: #444444;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+}
+.about_me_right h3::after {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: #d9d9d9;
+  content: "";
+  right: -110px;
+  top: 35%;
+  transform: translateY(-50%);
+}
+.icon {
+  float: left;
+  padding: 20px 10px;
+  margin-right: 15px;
+}
+.fa-camera {
+  color: #2fbad9;
+  font-size: 36px;
+  margin-top: -15px;
+}
+.fa-video {
+  color: #2fbad9;
+  font-size: 36px;
+  margin-top: -15px;
+}
+.fa-paintbrush {
+  color: #2fbad9;
+  font-size: 36px;
+  margin-top: -15px;
+}
+.about_me_right p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.photography h4 {
+  line-height: 20px;
+  color: #444444;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.motion_video h4 {
+  line-height: 20px;
+  color: #444444;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.photo_retouching h4 {
+  line-height: 20px;
+  color: #444444;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+/* about me section ends here */
+
+/*---------------------------
+ footer section css here
+ -------------------------*/
+.footer {
+  height: 376px;
+  padding-top: 60px;
+  width: 100%;
+  background-color: #373737;
+}
+.footer_flex {
+  display: flex;
+}
+.get_in_touch {
+  height: 290px;
+  width: 280px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #cacaca;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.get_in_touch p {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+.twitter p {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+.popular_post p {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+.about_us p {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+.get_in_touch h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.twitter h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.popular_post h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.about_us h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.twitter {
+  height: 290px;
+  width: 280px;
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #cacaca;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.popular_post {
+  height: 290px;
+  width: 280px;
+  color: #cacaca;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.about_us {
+  font-size: 14px;
+  height: 290px;
+  width: 280px;
+  color: #cacaca;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: lighter;
+}
+.span {
+  color: #929292;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.all_reserved {
+  background-color: #333333;
+  color: #cacaca;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 90px;
+}
+
+.all_right {
+  text-align: left;
+  padding-left: 210px;
+  padding-top: 38px;
+}
+/* footer section ends here */
