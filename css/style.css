@@ -107,7 +107,9 @@ a {
 /*---------------------------------
     service part css starts here 
  ---------------------------------*/
-
+#services {
+  margin-bottom: 80px;
+}
 .service_text {
   text-align: center;
 }
