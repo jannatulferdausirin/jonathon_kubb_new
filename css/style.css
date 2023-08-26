@@ -181,7 +181,7 @@ a {
   text-align: center;
   height: 590px;
   margin-top: 85px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 #instagram_title h3 {
   color: #d5d5d5;
@@ -192,7 +192,11 @@ a {
   position: relative;
   display: inline-block;
   margin-top: 50px;
-  border-block-start: 40px;
+  /* border-block-start: 40px; */
+}
+.insta_title_height {
+  height: 100px;
+ 
 }
 #instagram_title h3::before {
   position: absolute;
@@ -215,8 +219,9 @@ a {
   transform: translateY(-50%);
 }
 .button {
-  margin-top: 50px;
   text-align: center;
+  height: 60px;
+  padding-top: 40px;
 }
 .button a {
   border: 1px solid #797979;
@@ -231,7 +236,9 @@ a {
 .instagram {
   width: 100%;
   display: flex;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  height: 390px;
+  /* padding-bottom: 90px; */
 }
 .instagram_img {
   width: 25%;
