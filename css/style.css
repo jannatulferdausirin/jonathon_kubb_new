@@ -175,79 +175,69 @@ a {
 /* ---------------------------
  instagram css done here 
  -----------------------------*/
-#instagram_title {
+#instagram_part {
+  padding: 50px 0;
   background-color: #2c2c2c;
-  color: aliceblue;
-  text-align: center;
-  height: 590px;
-  margin-top: 85px;
-  /* padding-bottom: 40px; */
 }
-#instagram_title h3 {
+.insta_title {
+  text-align: center;
+}
+.insta_title h3 {
   color: #d5d5d5;
   text-transform: uppercase;
   font-size: 18px;
+  font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
   position: relative;
   display: inline-block;
-  margin-top: 50px;
-  /* border-block-start: 40px; */
 }
-.insta_title_height {
-  height: 100px;
- 
-}
-#instagram_title h3::before {
+.insta_title h3::before{
   position: absolute;
   height: 1px;
-  width: 100px;
-  background-color: #535353;
   content: "";
   left: -110px;
   top: 50%;
   transform: translateY(-50%);
+  width: 100px;
+  background: #535353;
 }
-#instagram_title h3::after {
+.insta_title h3::after{
   position: absolute;
   height: 1px;
-  width: 100px;
-  background-color: #535353;
   content: "";
   right: -110px;
   top: 50%;
   transform: translateY(-50%);
+  width: 100px;
+  background: #535353;
 }
-.button {
-  text-align: center;
-  height: 60px;
-  padding-top: 40px;
-}
-.button a {
-  border: 1px solid #797979;
-  border-radius: 2px;
-  padding: 15px 20px;
-  color: #a6a6a6;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-}
-.instagram {
-  width: 100%;
+.insta_shots_part{
   display: flex;
-  /* margin-top: 50px; */
-  height: 390px;
-  /* padding-bottom: 90px; */
+  margin-top: 50px;
 }
-.instagram_img {
+.insta_shots_items{
   width: 25%;
 }
-
-.instagram_img img {
+.insta_shots_items img{
   width: 100%;
 }
-/* instagram part end here */
+.insta_button{
+  text-align: center;
+  margin-top: 50px;
+}
+.insta_button a{
+  padding: 15px 20px;
+  border: 1px solid #535353;
+  color: #a6a6a6;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.insta_button i{
+ margin-right: 10px;
+  font-size: 18px;
+}
 
 /*-----------------------------------
  the journal css section start here 
