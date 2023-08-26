@@ -191,7 +191,7 @@ a {
   position: relative;
   display: inline-block;
 }
-.insta_title h3::before{
+.insta_title h3::before {
   position: absolute;
   height: 1px;
   content: "";
@@ -201,7 +201,7 @@ a {
   width: 100px;
   background: #535353;
 }
-.insta_title h3::after{
+.insta_title h3::after {
   position: absolute;
   height: 1px;
   content: "";
@@ -211,31 +211,31 @@ a {
   width: 100px;
   background: #535353;
 }
-.insta_shots_part{
+.insta_shots_part {
   display: flex;
   margin-top: 50px;
 }
-.insta_shots_items{
+.insta_shots_items {
   width: 25%;
 }
-.insta_shots_items img{
+.insta_shots_items img {
   width: 100%;
 }
-.insta_button{
+.insta_button {
   text-align: center;
   margin-top: 50px;
 }
-.insta_button a{
+.insta_button a {
   padding: 15px 20px;
   border: 1px solid #535353;
   color: #a6a6a6;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-.insta_button i{
- margin-right: 10px;
+.insta_button i {
+  margin-right: 10px;
   font-size: 18px;
 }
 
@@ -581,6 +581,9 @@ about me section css start here
   margin-right: 10px;
   padding: 10px;
   font-weight: lighter;
+}
+.touch_height_correct p {
+  line-height: 16px;
 }
 .span {
   color: #929292;
